@@ -1,0 +1,96 @@
+/* Highlight text with a pastel yellow */
+body {
+    background-image: url('background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.highlight {
+    background-color: #ffeb77;
+    color: #333;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+/* Define the error class with a pastel red tone */
+.error {
+    border: 2px solid #ff8a80;
+    background-color: #ffcccb;
+    animation: shake 0.5s;
+    animation-iteration-count: 3;
+}
+
+/* Define the shake animation */
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-5px);
+    }
+
+    50% {
+        transform: translateX(5px);
+    }
+
+    75% {
+        transform: translateX(-5px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* General styling for a soft, modern look */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Poppins', sans-serif;
+    color: #555;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling for input fields */
+input, textarea {
+    border: 2px solid #c3aed6;
+    background-color: #ede7f6;
+    color: #4a4a4a;
+    padding: 8px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+input:focus, textarea:focus {
+    border-color: #a48cc1;
+    outline: none;
+    box-shadow: 0 0 8px #d1c4e9;
+}
+
+/* Buttons with pastel aesthetics */
+button {
+    background-color: #a2d5f2;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #84c1e8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Add a subtle pastel shadow effect */
+.container {
+    background-color: #f3e5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+}
